@@ -10,6 +10,7 @@ dependencies:
   - ncurses=6.2=h0a44026_1
   - openssl=1.1.1g=h1de35cc_0
   - pip=20.2.2=py38_0
+  - pycodestyle=2.6.0=py_0
   - python=3.8.5=h26836e1_1
   - readline=8.0=h1de35cc_0
   - setuptools=49.6.0=py38_0

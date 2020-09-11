@@ -13,7 +13,7 @@ def guessing_game():
     Prompt the user to a guess a number between 0 and 100 (inclusive).
     If guess is correct, the program exists; otherwise they'll try again.
     """
-    random_int = random.randint(0, 100)
+    answer = random.randint(0, 100)
 
     start_text = """
     === It's time to play the 'Guessing Game'! ===
@@ -23,19 +23,18 @@ def guessing_game():
     Even if you get it wrong, the game won't end until you get it right!
 
     Shake off the nerves and play the 'Guessing Game'!
+    """
 
-    > """
+    print(start_text)
 
-    guess_int = int(input(start_text))
-
-    while True:
-        if guess_int < random_int:
-            guess_int = int(input("Too low, try a higher number!\n> "))
-        elif guess_int > random_int:
-            guess_int = int(input("Too high, try a lower number!\n> "))
-        else:
-            print("Just right! You have won the 'Guessing Game'!\n")
+    while guess := int(input("> ")):
+        if guess == answer:
+            print(f"{guess} is just right! You won the 'Guessing Game' 🎉🥳🎉!\n")
             break
+        elif guess < answer:
+            print(f"{guess} is too low, try a higher number!\n")
+        else:
+            print(f"{guess} is too high, try a lower number!\n")
 
 
 # call the function

@@ -11,7 +11,13 @@ import random
 def guessing_game():
     """
     Prompt the user to a guess a number between 0 and 100 (inclusive).
+
     If guess is correct, the program exists; otherwise they'll try again.
+
+    Args:
+        None
+    Returns:
+        None
     """
     answer = random.randint(0, 100)
 

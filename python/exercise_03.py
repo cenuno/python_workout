@@ -7,7 +7,12 @@ Exercise 03:    Run Timing
 
 def run_timing():
     """
-    Display average run time (minutes) & number of runs given by the user
+    Display average run time (minutes) & number of runs given by the user.
+
+    Args:
+        None
+    Returns:
+        None
     """
     user_output_text = "Enter 10 km run time: "
     n_runs = 0

@@ -7,15 +7,20 @@ dependencies:
   - libcxx=10.0.0=1
   - libedit=3.1.20191231=h1de35cc_1
   - libffi=3.3=hb1e8313_2
+  - mypy=0.782=py_0
+  - mypy_extensions=0.4.3=py38_0
   - ncurses=6.2=h0a44026_1
   - openssl=1.1.1g=h1de35cc_0
   - pip=20.2.2=py38_0
+  - psutil=5.7.2=py38haf1e3a3_0
   - pycodestyle=2.6.0=py_0
   - python=3.8.5=h26836e1_1
   - readline=8.0=h1de35cc_0
   - setuptools=49.6.0=py38_0
   - sqlite=3.33.0=hffcf06c_0
   - tk=8.6.10=hb0a8c7a_0
+  - typed-ast=1.4.1=py38h1de35cc_0
+  - typing_extensions=3.7.4.3=py_0
   - wheel=0.35.1=py_0
   - xz=5.2.5=h1de35cc_0
   - zlib=1.2.11=h1de35cc_3

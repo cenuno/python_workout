@@ -5,7 +5,7 @@ Exercise 04:    Hexadecimal Output
 """
 
 
-def hex_output(hex_number):
+def hex_output(hex_number: str) -> int:
     """
     Return the integer form of a hexadecimal number without the 0x prefix.
 

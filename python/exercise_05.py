@@ -38,9 +38,9 @@ def pig_latin(word: str) -> str:
         'omputercay'
     """
     # store constants
-    VOWELS = ["a", "e", "i", "o", "u"]
-    WAY = 'way'
-    AY = 'ay'
+    VOWELS = "aeiou"
+    WAY = "way"
+    AY = "ay"
 
     if word[0] in VOWELS:
         translation = word + WAY

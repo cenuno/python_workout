@@ -7,7 +7,7 @@ Exercise 02:    Summing Numbers
 
 def mysum(*numbers):
     """
-    Recreate the buit-in sum() function.
+    Recreate the built-in sum() function.
 
     Rather than a list of numbers as the sole parameter,
     mysum() takes individual numbers as parameters and then returns the sum.

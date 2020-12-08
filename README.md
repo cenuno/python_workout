@@ -15,3 +15,8 @@ conda env create -f environment.yml
 # activate (switch into) the pywk conda environment
 conda activate pywk
 ```
+
+### Learning Philosphy
+
+Every day is a chance to learn something new!
+
